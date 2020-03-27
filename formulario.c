@@ -8,5 +8,4 @@ printf("digite seu nome");
 scanf("%c"&nome);
 
 printf("seu nome é %c",nome);
-
 }
