@@ -15,8 +15,14 @@ switch (opc)
 case 1:
 printf("Digite por favor sua idade :\n",nome);
 scanf("%d",&idade);
+if(idade<18){
+    printf("So maiores de idade podem adquirir nossos palnos");
+    return;
+
+}else{
 printf("Digite por favor seu email:\n");
 scanf("%d",&email);
+}
 
 break;
 case 2:
