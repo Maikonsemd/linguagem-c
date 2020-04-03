@@ -20,7 +20,7 @@ scanf("%d",&email);
 
 break;
 case 2:
-printf("%s digite 1- para dúvidas sobre seu palno \n\n digite 2- para mudança de plano ");
+printf("%s digite 1- para dúvidas sobre seu plano\n\n digite 2- para mudança de plano ");
 scanf("%d",&subopc);
 printf("qual o seu palno:\n\n");
 
