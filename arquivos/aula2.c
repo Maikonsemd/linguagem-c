@@ -22,7 +22,6 @@ int main(void)
     fputc(letra, arq);
     fclose(arq);          
     }
-    
     return 0;
 
 
