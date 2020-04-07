@@ -6,7 +6,7 @@
       char palavra[20]; // variável do tipo string
       
       //abrindo o arquivo com tipo de abertura w
-      pont_arq = fopen("arquivo_palavra.txt", "w");
+      pont_arq = fopen("arquivo_palavra.txt", "a");
       
       //testando se o arquivo foi realmente criado
       if(pont_arq == NULL)
@@ -16,7 +16,7 @@
       }
       
       printf("Escreva uma palavra para testar gravacao de arquivo: ");
-      scanf("%s", palavra);
+      scanf("%[^\n]s", palavra);
       
       //usando fprintf para armazenar a string no arquivo
       fprintf(pont_arq, "%s", palavra);

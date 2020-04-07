@@ -29,6 +29,7 @@ int main(void){
     }
     fclose(arq);
     printf("Dados gravados com sucesso!");
+    
     return 0;
     
 }
